@@ -67,9 +67,9 @@ def manual_control(hqcar):
         elif keyboard.is_pressed('down'):
             forward_cmd = -speed
 
-        if keyboard.is_pressed('left'):
+        if keyboard.is_pressed('right'):
             turn_cmd = turn_angle
-        elif keyboard.is_pressed('right'):
+        elif keyboard.is_pressed('left'):
             turn_cmd = -turn_angle
 
         if keyboard.is_pressed('esc'):
